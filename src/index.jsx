@@ -10,7 +10,6 @@ const nomDepotGitHub = "pvt-ex3-firestore";
 
 // Ne rien modifier aux lignes suivantes 
 const baseName = (window.location.href.search(/github\.io/) !== -1) ? `/${nomDepotGitHub}` : "";
-
 ReactDOM.render(
   <React.StrictMode>
     <Router basename={baseName}>
